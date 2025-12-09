@@ -1,4 +1,4 @@
-const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY";   /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/ 
+const OPENAI_API_KEY = "YOUR_OPENAI_API_KEY";   // 
 ocument.getElementById("analyzeBtn").addEventListener("click", async () => {
     const userText = document.getElementById("userInput").value.trim();
     const resultBox = document.getElementById("result");
